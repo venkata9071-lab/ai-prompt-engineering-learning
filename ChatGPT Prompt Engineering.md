@@ -158,3 +158,29 @@ The AI answered in the same simple teaching style as the first example.
 ### Key Takeaway
 
 Give examples first, then ask the task.
+
+## Principle 2 : Give the Model Time to Think while answering the complex problems
+
+### Tactic 1
+
+#### What I learned
+
+- mainly Breaking a task into smaller steps which gives better results for the complex problems and also clear output format makes the response easier to understand.
+- The AI follows instructions more accurately when each step is specified.
+
+#### my learning was 
+
+Breaking the complex tasks into simple steps what to do in step by step.
+
+
+### Tactic 2
+
+#### What I learned
+
+- Ask the AI to solve the problem before checking the given answer.
+- Then Comparing its own solution with the given answer i think it will improves accuracy.
+- This reduces the chance of incorrect judgments and also giving the explaination by comparing the both solution which will give the best solution
+
+#### my learning was
+
+Solve first, then compare it and explain it.
