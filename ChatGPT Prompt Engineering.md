@@ -184,3 +184,34 @@ Breaking the complex tasks into simple steps what to do in step by step.
 #### my learning was
 
 Solve first, then compare it and explain it.
+
+# Model Limitation: Hallucinations
+
+## What I learned
+
+- Sometimes the AI may also gives answers that sound correct but are actually creating a answers without any evidance.
+- This is called a hallucination.
+- It usually happens when the AI doesn't have enough information.
+- For important information, it's better to verify the answer using a reliable source.
+
+## Hands-on
+
+### Prompt 1
+
+Asked about a fake toothbrush product.
+
+**Observation**
+
+But while checking it in chatgpt, it identifies it its a fake toothbrush
+
+
+### Prompt 2
+
+Asked the AI to say if it wasn't sure instead of making up information.
+
+
+The response was more reliable because the AI acknowledged uncertainty.
+
+## learning was
+
+AI can sound sometimes it may confident even when it's wrong, so always verify it important information.
