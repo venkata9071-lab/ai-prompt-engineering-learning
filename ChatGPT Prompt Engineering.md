@@ -90,3 +90,71 @@ can you generate a list of five travel destinations and provide them in json for
 #### output from LLM
 
 [ { "destination_id": 1, "place_name": "Bali", "country": "Indonesia", "avg_temperature": "28°C" }, { "destination_id": 2, "place_name": "Santorini", "country": "Greece", "avg_temperature": "24°C" }, { "destination_id": 3, "place_name": "Kyoto", "country": "Japan", "avg_temperature": "16°C" }, { "destination_id": 4, "place_name": "Banff National Park", "country": "Canada", "avg_temperature": "4°C" }, { "destination_id": 5, "place_name": "Cape Town", "country": "South Africa", "avg_temperature": "18°C" } ]
+
+# Tactic 3: Check Whether Conditions Are Satisfied
+
+## What I learned
+
+- Before doing the task, the AI first checks if the condition is satisfied.
+- If the condition is true, it completes the task.
+- If the condition is false, it returns the response what i have asked for
+- This helps avoid  wrong or unnecessary answers.
+
+## Hands-on
+
+### Prompt 1
+
+Checked if the text had instructions.
+
+**Observation**
+
+The text didn't have any instructions, so the AI returned **"No steps provided."**
+
+---
+
+### Prompt 2
+
+Checked the tea-making paragraph.
+
+**Observation**
+
+The AI found the instructions and converted them into numbered steps.
+
+### Key Takeaway
+
+Check the condition before doing the task.
+
+---
+
+# Tactic 4: Few-shot Prompting
+
+## What I learned
+
+- Few-shot prompting means giving the AI one or more examples first.
+- The examples help the AI understand the style and format I want.
+- After seeing the examples, the AI continues in the same way.
+- This gives more consistent answers.
+
+## Hands-on
+
+### Prompt 1
+
+Child and grandparent conversation.
+
+**Observation**
+
+The AI continued the conversation in the same wise style as the example.
+
+---
+
+### Prompt 2
+
+Teacher explaining Azure services.
+
+**Observation**
+
+The AI answered in the same simple teaching style as the first example.
+
+### Key Takeaway
+
+Give examples first, then ask the task.
