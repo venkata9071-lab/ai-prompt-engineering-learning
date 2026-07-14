@@ -445,3 +445,63 @@ using like proofread and correct this sentence
 ## Multiple changes we can do in single prompt
 
 - One prompt can correct grammar, change tone and convert format at the same time as well.
+# The Chat bot
+
+## What I understood was
+
+The chat format stores every message as a role and content.so,The main roles are system, user and assistant.
+
+This system message controls the chatbot's behaviour.
+
+ user message :- contains what the person says.
+
+ assistant message :-  stores the chatbot's previous reply.
+
+## one thing note was Conversation Memory
+
+The chatbot only remembers earlier information when the full conversation history is sent again.
+
+
+## OrderBot
+
+The OrderBot uses a system message to define:
+
+- the menu,
+- prices,
+- questions to ask,
+- pickup or delivery,
+- the conversation style.
+
+i have tried this example for chatbot 
+
+
+context = [
+    {
+        "role": "system",
+        "content": """
+You are Data Engineering HelpBot.
+
+Your job is to help beginners understand data engineering topics.
+
+You should:
+- greet the user,
+- ask what topic they want help with,
+- explain using simple language,
+- give one practical example,
+- ask one short follow-up question,
+- keep responses concise and friendly.
+
+Topics include:
+- Azure Data Factory
+- Azure Synapse Analytics
+- data lakes
+- ETL and ELT
+- SQL
+- Git
+- data pipelines
+
+If the user asks something outside these topics,
+politely say you are focused on data engineering.
+"""
+    }
+]
