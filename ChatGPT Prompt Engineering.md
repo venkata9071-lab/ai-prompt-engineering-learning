@@ -234,9 +234,6 @@ Improve the prompt
 
 Run it again
 
-I realized this is similar to software development. Developers don't write perfect code on the first attempt—they test it, find issues, fix them, and repeat. Prompt engineering follows the same process.
-
----
 
 ## Iteration 1
 
@@ -325,3 +322,30 @@ Instead of trying to write the perfect prompt on the first attempt, I should:
 - Improve the prompt step by step.
 
 Every iteration makes the prompt better and gets the output closer to what I actually need.
+
+## Summarizing
+
+### What i have learned
+
+- LLms like chatgpt or claude can turn long text into short summaries.
+- I can control the summary using a word or sentence limit.
+- I can ask the model to focus on a specific topic.
+- The same review can have different summaries for different departments.
+- Summarising keeps the main meaning of the whole text.
+- Extracting returns only the specific information requested.
+
+#### For Example 
+
+for this text I bought a wireless mouse for work. It connects quickly and feels comfortable, but the battery only lasted two weeks. Delivery was fast and the price was reasonable.
+
+i have used the prompt like summarize this in 10 words or two sentence  and output was comfortable wireless mouse,quick connection,reasonable price,battery lasted fortnight 
+
+- And also summarize the text mainly focus on the auidence or purpose like summarize the text based on shipping etc
+
+extracting the text getting the information what we reuired it only pulls the information only the specific information i asked for 
+
+- Like prompt: extract the battey life output as The battey only lasted two weeks.
+
+### Key Takeaway
+
+The summary should match the purpose and audience.
