@@ -53,3 +53,43 @@ Web search is useful for:
 
 my note :- I should request web search when the answer may have changed after the model's knowledge cutoff.
 
+For the web search sources
+
+Web search doesn't automatically mean the answer is correct.
+
+like for example 
+
+how safe are the minoxidil petides? if i as this LLm may search the social media, blogs and untrusted websites 
+
+for the more trusted resocures to search 
+
+giving prompt like How safe are the minoxidil peptides? only use the sources like offical trusted health orgnaztions like who,fba, nhs and look at the studies which is backed by rigorous science. 
+
+As a result it will search like WHO, FDA, NHS and trusted resources.
+
+So,the quality of the answer depends on the quality of the websites the AI uses.
+
+
+ Deep Research
+ What I Learned
+
+Deep Research is much more advanced than a normal web search.
+
+Instead of searching only a few pages, it will mainly do these
+
+- creates a research plan
+- searches multiple sources
+- compares information
+- performs additional searches if required
+- analyses the findings
+- generates a detailed report with citations
+
+so, this process can take few minutes 
+
+for Example i have tried this prompts in deep search in chtgpt deepsearch
+
+- Compare Azure Synapse vs Microsoft Fabric.
+- Research the safest hair-loss treatments using official medical sources in uk
+- Compare universities for MSc Data Engineering in current new fees structure
+
+These tasks normally require reading many webpages manually, but Deep Research can do most of the work.
