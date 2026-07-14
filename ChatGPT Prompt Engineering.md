@@ -349,3 +349,70 @@ extracting the text getting the information what we reuired it only pulls the in
 ### Key Takeaway
 
 The summary should match the purpose and audience.
+# Inferring
+
+## What I understood
+
+Inferring means analysing text and finding information such as sentiment, emotions, names, products and topics.
+
+The model can do different text-analysis tasks just by changing the prompt.
+
+## Sentiment
+
+- Sentiment shows whether the overall feeling is positive, negative or neutral.
+- Giving a one-word output makes it easier to use in code.
+
+## Emotions
+
+- Emotions are more specific than sentiment.
+- The model can detect feelings such as happiness, anger or disappointment.
+
+## Information Extraction
+
+- The model can extract exact details like product name and brand.
+- JSON makes the output easy for applications to process.
+- If information is missing, I should ask it to return "unknown."
+
+## Multiple Tasks
+
+- One prompt can extract sentiment, anger, item and brand together.
+- The expected fields and format should be clearly specified.
+
+## Topic Inference
+
+- The model can identify the main topics in an article.
+- It can also check whether specific topics are present.
+
+## Example 
+
+I bought a wireless mouse for work. It connects quickly and feels comfortable, but the battery only lasted two weeks. Delivery was fast and the price was reasonable. what is the sentiment of the review so, return only : postive , negitive, neutral
+
+- llm  has given output positive
+
+I have asked now idnetify the five emotions in it and return in lowercase by commas
+
+- it given the satisfaction, disappointment, comfort, appreciation, frustration
+
+extract the following information like product battery , shipping feedback and price feedback then also return mainly in json format 
+
+- output from llm: {
+  "product": "Wireless mouse",
+  "battery": {
+    "feedback": "The battery only lasted two weeks."
+  },
+  "shipping": {
+    "feedback": "Delivery was fast."
+  },
+  "price": {
+    "feedback": "The price was reasonable."
+  }
+}
+
+- Customer review analysis
+- Urgent complaint detection
+- News alerts
+- Automatic content tagging
+
+## key point was
+
+I think Analyse text and then  extract useful meaning.
