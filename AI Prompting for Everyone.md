@@ -229,3 +229,86 @@ My learning was
 - Start a new conversation when changing topics completely.
 - AI desktop apps reduce manual work by automatically finding relevant files.
 - Always review AI's plan before allowing it to modify files.
+
+ Module 3 was Working with Multimedia and Code
+
+What I Learned
+
+This module helped me understand that AI  can work with images, audio, video, code, and data and analyze the picture and can describe as well.
+
+so,my main learning is that multimodal AI can take different types of input and also create different types of output. For example, I can upload an image and ask the  AI to explain it and  edit it, or use it as i want new on elike take the inspiration from this.
+
+Working with Multimedia
+
+what i learned was this LLm like chatgpt can text , image, audio etc 
+
+
+I got  that text is usually faster and cheaper to generate.
+
+ Images take longer, and video usually takes the most time and cost.so, mage and video is costly and take time compare to text for any LLms
+
+
+what I understand was  from an image, like llms can see the
+
+objects
+basic text
+handwritten notes in it
+
+receipts
+diagrams etc
+
+However, it may miss small details from it we can get the ouput by doing iteration of prompts with AI
+
+For example,
+
+i tried in gym today evening i have upload the  two gym machines may look similar, so AI has detected the one machine which is split machine but other one it told butt builder but it wrong it is tricep machine 
+so, what i have noted was it  may give the wrong name if the image is unclear.
+
+
+
+I learned that image prompts should clearly describe:
+
+the main subject
+the setting
+important detail
+mood
+visual style etc
+
+
+what i understand was Image generation is useful for brainstorming ideas, but it may still make mistakes with text, hands, or character consistency.
+
+
+Building Apps with AI
+
+what i learned was AI can also write code and create simple websites or games from a text prompt.
+
+A useful app prompt should explain:
+
+1. The goal of the app
+2. What the user will input
+3. What the app should output
+
+For example:
+
+ Build a bill-splitting calculator where users enter the total bill and number of people, and the app shows how much each person should pay.
+
+I understood that simple and clearly defined apps are easier for AI to build than complex applications.
+
+ Data Analysis
+
+AI can analyse spreadsheets and other structured data by writing and running code.
+
+For example, I can upload sales data and ask:
+
+Which products had the biggest changes in sales? Create a graph and explain the main trends.
+
+AI may inspect the data or calcutare the total or average in it and it will identify the patterns in it , generate charts, explain the useful findins in it.
+
+
+Lab example
+
+I have tried to create a spiderman game by doing brainstroming  then researching it, finally the build it
+
+I have used this prompt :- “Build a Spider-Man game” is too broad and may produce a generic or unmanageable result. By adding context about the city, player movement, traffic, pedestrians, enemies, visual style and development stages, the AI can understand the game more clearly and produce a practical, structured development plan.
+
+Context used : Help me design and build a simple third-person web-swinging superhero game. The game should take place in a colourful modern city with tall skyscrapers, apartment buildings, shops, construction sites, roads, traffic and pedestrians. Main goal: The player controls a web-slinging superhero who can move freely through the city, stop crimes and fight enemies. Player movement: - run and jump - climb walls - wall-run - swing between buildings using webs - release the web to gain momentum - dive while falling - perform simple air tricks - land on rooftops, walls and streets City: - buildings of different heights - wide and narrow streets - rooftops with water tanks, air conditioners and antennas - moving cars, taxis, buses and police vehicles - pedestrians walking on pavements - daytime and sunset lighting Traffic: - vehicles follow fixed road paths - vehicles stop at traffic lights - pedestrians react when combat begins - police vehicles appear during crimes Enemies: - basic street criminals - armed enemies - heavy enemies - rooftop snipers - flying drones Combat: - punches and kicks - dodge - web shot - web pull - attach enemies to walls - throw nearby objects - air attacks Missions: - stop a robbery - chase a stolen vehicle - rescue a civilian - defeat enemies on a rooftop - complete a web-swinging time trial Visual style: - colourful comic-inspired city - red and blue superhero suit - smooth movement animations - bright daytime colours - orange and purple sunset lighting Start by building a small playable prototype, not the full game. The first prototype should contain: 1. One small city block 2. Five buildings 3. Basic player movement 4. One working web-swing mechanic 5. A few moving cars 6. Three basic enemies 7. One simple mission 8. A restart button Before writing code, create a development plan. Divide the game into small stages and explain which feature should be built first.
