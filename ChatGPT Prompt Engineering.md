@@ -416,3 +416,32 @@ extract the following information like product battery , shipping feedback and p
 ## key point was
 
 I think Analyse text and then  extract useful meaning.
+# Transforming
+
+## I learned was
+
+Transforming means changing text or data from one form into another while keeping the main meaning.
+like translating the given text into french or telugu
+
+## Translation
+
+- The model can detect the languages and translate the  text.
+- It can also  translate into multiple languages and formal and informal too
+
+## Tone like casual or professional etc
+
+- The same message can be rewritten in a casual, professional or formal tone.
+
+## Format Conversion
+
+- The model can convert data between formats such as JSON, HTML and Markdown.
+ what i learned was i should given in prompt about he input and output as well
+
+## spell checking or grammer checking
+
+- The model can correct spelling, grammar and punctuation.
+using like proofread and correct this sentence 
+
+## Multiple changes we can do in single prompt
+
+- One prompt can correct grammar, change tone and convert format at the same time as well.
