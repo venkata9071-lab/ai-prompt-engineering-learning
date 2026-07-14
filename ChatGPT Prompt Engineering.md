@@ -110,7 +110,6 @@ Checked if the text had instructions.
 
 The text didn't have any instructions, so the AI returned **"No steps provided."**
 
----
 
 ### Prompt 2
 
@@ -124,7 +123,6 @@ The AI found the instructions and converted them into numbered steps.
 
 Check the condition before doing the task.
 
----
 
 # Tactic 4: Few-shot Prompting
 
@@ -145,7 +143,6 @@ Child and grandparent conversation.
 
 The AI continued the conversation in the same wise style as the example.
 
----
 
 ### Prompt 2
 
@@ -200,7 +197,7 @@ Solve first, then compare it and explain it.
 
 Asked about a fake toothbrush product.
 
-**Observation**
+#### Observation
 
 But while checking it in chatgpt, it identifies it its a fake toothbrush
 
@@ -215,3 +212,116 @@ The response was more reliable because the AI acknowledged uncertainty.
 ## learning was
 
 AI can sound sometimes it may confident even when it's wrong, so always verify it important information.
+# Iterative Prompt Development
+
+## What I understood
+
+Initially, I thought prompt engineering was about writing one perfect prompt. After this lesson, I understood that's not how it works.
+
+The first prompt doesn't have to be perfect. The important part is improving it step by step based on the output until it gives the result I want.
+
+### My Prompt Development Loop
+
+Write prompt
+
+Run it
+
+Check the result
+
+Find the problem
+
+Improve the prompt
+
+Run it again
+
+I realized this is similar to software development. Developers don't write perfect code on the first attempt—they test it, find issues, fix them, and repeat. Prompt engineering follows the same process.
+
+---
+
+## Iteration 1
+
+### Problem
+
+The product description was too long.
+
+### Improvement
+
+Added:
+
+- Use at most 50 words or use the sentence like specifying it 3 sentence etc 
+
+### What I learned
+
+If the output is longer than expected, I should give a clear limit instead of simply saying "make it shorter."
+
+## Iteration 2
+
+### Problem
+
+The description focused on general product details instead of what furniture retailers need.
+
+### Improvement
+
+Specified the target audience and asked the model to focus on materials and technical details.
+
+### What I learned
+
+The model gives better results when I clearly mention who the audience is and what information is important.
+
+
+## Iteration 3
+
+### Problem
+
+The response didn't include the product IDs.
+
+### Improvement
+
+Added an instruction to include every 7-character Product ID.
+
+### What I learned
+
+If something important is missing, I shouldn't expect the model to guess. I should explicitly ask for it.
+
+
+## Iteration 4
+
+### Problem
+
+The dimensions were difficult to read.
+
+### Improvement
+
+Asked the model to extract the dimensions and present them in a table.
+
+### What I learned
+
+The model can not only generate text but also organize information into tables, making the output easier to understand.
+
+
+## Iteration 5
+
+### Problem
+
+The content wasn't ready to use on a website.
+
+### Improvement
+
+Asked the model to format the output as HTML.
+
+### What I learned
+
+The model can generate website-ready content like HTML, which saves development time.
+
+
+## my Thoughts was
+
+
+Instead of trying to write the perfect prompt on the first attempt, I should:
+
+- Start with a simple prompt.
+- Check the output carefully.
+- Identify what is missing or incorrect.
+- Improve the prompt step by step.
+
+Every iteration makes the prompt better and gets the output closer to what I actually need.
